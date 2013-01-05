@@ -2,7 +2,9 @@ PATabBarController
 ==================
 
 Simple container UIViewController that allows to present multiple view controllers when embedded in UINavigationController through the UISegmentedControl in the UINavigationItem
+
 It tracks self.title and self.tabBarItem.image properties in contained controllers to update presentation in UISegmentedControl.
+
 
 Also there are methods for adding/removing viewcontroller (not really useful in real life) and animatable methods for selecting current index.
 
